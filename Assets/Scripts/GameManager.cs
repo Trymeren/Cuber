@@ -15,7 +15,9 @@ public class GameManager : MonoBehaviour
     private float delay = 3;
     public bool gameOver = false;
     public int score = 0;
-    public float timer = 0;
+
+    //ENCAPSULATION
+    public float timer { get; protected set;}
 
 
     void Start()

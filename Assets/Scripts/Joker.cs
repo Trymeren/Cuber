@@ -15,6 +15,7 @@ public class Joker : Obstacle
         StartCoroutine(ChangeSpeed("start"));
     }
 
+//POLYMORPHISM
     override protected void DecideSpeed()
     {
         currentSpeed = speed * (1 + (float)GameObject.Find("Game Manager").GetComponent<GameManager>().score / 100) * speedMultiplier;
