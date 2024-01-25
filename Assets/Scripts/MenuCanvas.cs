@@ -21,4 +21,14 @@ public class MenuCanvas : MonoBehaviour
     {
         SceneManager.LoadScene(1);
     }
+
+    public void LoadCreditScene()
+    {
+        SceneManager.LoadScene(2);
+    }
+
+    public void ExitToMenu()
+    {
+        SceneManager.LoadScene(0);
+    }
 }
